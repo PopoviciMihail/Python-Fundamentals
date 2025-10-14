@@ -2,13 +2,13 @@ from typing import Dict
 
 def char_frequency(sentence: str) -> Dict[str, int]:
     """
-    Calculează frecvența fiecărui caracter dintr-un text.
+    Calculeaza frecventa fiecarui caracter dintr-un text.
 
     Args:
         sentence (str): Textul analizat.
 
     Returns:
-        Dict[str, int]: Dicționar cu caracterele și numărul de apariții.
+        Dict[str, int]: Dictionar cu caracterele si numărul de aparitii.
     """
     freq: Dict[str, int] = {}
     for char in sentence:
